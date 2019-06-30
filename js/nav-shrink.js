@@ -10,17 +10,23 @@
 });
 */
 
-var  nav = document.getElementById('navbar');
+            var  nav_bar = document.getElementById('navbar');
             var  log = document.getElementById('logo');
+            var  top_button = document.getElementById('go-to-up');
+            var  nav=document.getElementById('nav');
           window.onscroll = function(){
     
-              if (window.pageYOffset >400) {
+              if (window.pageYOffset >600) {
 
-              nav.style.background = "#d4d7de";
+              nav_bar.style.background = "#d4d7de";
               log.style.color="black";
-      	}
+              top_button.style.display="block";
+              nav.classList.add("nav_animation");
+        }
       	else{
-              nav.style.background = "transparent";
+              nav_bar.style.background = "transparent";
               log.style.color="white";
-      	}
+              top_button.style.display="none";
+              nav.classList.remove("nav_animation");
+        }
           }

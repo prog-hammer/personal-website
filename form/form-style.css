@@ -1,9 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+#form-header{
+    text-align: center;
+    
+    font-family: Audiowide;
+}
 form input{
     
     width: 100%;
     margin: 0;
     border: 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 5px solid #eee;
     margin: 2px;
     padding: 10px;
     display: block;
@@ -49,12 +59,52 @@ button{
     background: #fff;
     border-radius: 20px;
     padding: 13px;
-    width: 14%;
+    width: 150px;
     box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
     font-weight: bold;
     font-family: ubuntu;
     letter-spacing: 1px;
     color: #999;
-    margin-top: 8px;
-    
+    margin-top: 50px;
+    margin-left: 38%;
 }
+#content{
+    text-align: left;
+    font-size: 25px;
+    padding: 5%
+
+}
+.footer{
+	
+	background-color: #d4d7de;
+	text-align: center;
+	height: auto;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4%;
+}
+.footer ul li a img{
+	width: 30px;
+}
+.footer ul{
+	list-style-type: none;
+}
+.footer ul li{
+	display: inline-block;
+	padding: 2%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+#map{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#map-head{ 
+    text-align: left;
+    font-size: 20px;
+    margin-left: 5%;
+   }

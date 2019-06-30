@@ -27,6 +27,12 @@ body{
     list-style: none;
     margin-right: 15%;
 }
+.nav_animation li a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin:15px;
+}
 .logo{
     flex: 1 1 auto;
     margin-left:10%;
@@ -44,9 +50,12 @@ a{
 a:hover{
     color: #000;
 }
+.nav_animation li a:hover{
+    color: white;
+}
 .banner-area{
     position: relative;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(fullstack.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://drive.google.com/uc?id=1c9hhBk_iPioiqcb174ojZfTtWUxSQxen);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
@@ -54,7 +63,7 @@ a:hover{
     background-position: center;
     background-attachment: fixed;
 }
-.about-area, .contact-area{
+.about-area, .contact-area, .footer-area{
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -66,19 +75,27 @@ a:hover{
 }
 .text-part{
     width: 75%;
-    height: 80%;
+    height: auto;
+    padding-top: 70px;
+}
+.text-part-footer{
+    width: 75%;
+    height: auto;
+    padding-top: 10px;
 }
 h1{
     font-size:50px;
     font-family: Audiowide;
-    padding-top: 70px;
 }
-p{
+.text-part p{
     font-size: 24px;
     line-height: 50px;
 }
 .about-area{
-    background: #fefefe;
+    background: #c2c2a3;
+}
+.footer-area{
+    background: #d4d7de;
 }
 .contact-area{
     background: #262626;
@@ -86,7 +103,7 @@ p{
 .left-box{
     float: left;
     width: 50%;
-    border-right: 1px solid black;
+    background: #999966;
 }
 .dp{
     padding: 10%; 
@@ -103,37 +120,49 @@ p{
 .right-box{
     float: right;
     width: 50%;
+    background: #c2c2a3;
 }
-#form{
-    width: 75%;
+.skill_box ul li img{
+	width: 100px;
+	max-height: 100px;
+}
+.skill_box ul{
+    list-style-type: none;
+    text-align: center;
+}
+.skill_box ul li{
+    display: inline-block;
+    padding: 3%;
+}
+.skill_box h2{
+	text-align: center;
+	size: 6;
+}
+.contact-left{
+    width: 100%;
+    height: auto;  
     
 }
-.footer{
-	
-	background-color: #d4d7de;
-	text-align: center;
-	height: 100px;
-	width: 100%;
+.contact-right{
+    height: auto;
+    float: right;
+    width: 50%;
 }
-.footer ul li a img{
-	width: 35px;
-}
-.footer ul{
-	list-style-type: none;
-}
-.footer ul li{
-	display: inline-block;
-	padding: 30px;
-	padding-right: 40px;
-	padding-left: 40px;
-}
-.go-to-up{
+
+
+
+#go-to-up{
     width: 50px;
     height: 50px;
-    bottom: 30px;
-    right: 30px;
+    bottom: 10px;
+    right: 20px;
     position: fixed;
     text-align: center;
     line-height: 50px;
 }
 
+.text-part-footer{
+    text-align: center;
+    margin-bottom: 2px;
+
+}
