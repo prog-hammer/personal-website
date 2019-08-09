@@ -30,3 +30,13 @@
               nav.classList.remove("nav_animation");
         }
           }
+//mobile menu
+          $(document).ready(function(){
+
+            $("#burger-nav").on("click", function(){
+            
+                $("#nav ul").toggleClass("open");
+                
+            });
+        
+        });
