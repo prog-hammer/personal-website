@@ -99,6 +99,7 @@ h1{
 }
 .contact-area{
     background: #262626;
+    height: 100%;
 }
 .left-box{
     float: left;
@@ -204,11 +205,7 @@ h1{
     display: none;
 }
 
-.dp{
-   
-    height: 30%;
-    
-}
+
 
 
 
