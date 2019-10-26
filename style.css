@@ -75,7 +75,7 @@ a{
     background-attachment: fixed;
 }
 .main{
-    background-image: url("contentWally.jpg");
+    background-image: url("https://drive.google.com/uc?id=1PAXcCa4JMwoGc_E1yYddGzqzqhpMK1Sn");
     background-repeat: no-repeat;
 }
 .about-area, .contact-area, .footer-area{
@@ -109,6 +109,7 @@ h1{
     font-size:50px;
     font-family: Audiowide;
     color: #0099ff;
+    font-weight: bold;
 }
 .text-part p{
     font-size: 24px;
@@ -140,31 +141,37 @@ h1{
 }
 .skill_box ul li img{
 	width: 100px;
-	max-height: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .skill_box ul{
     list-style-type: none;
-    text-align: center;
+    
 }
 .skill_box ul li{
     display: inline-block;
     padding: 3%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.skill_box h2{
+h2{
 	text-align: center;
     size: 6;
     color:#0099ff;
 }
 
 .contact-left{
-    width: 50%;
+    width: 70%;
     height: auto;  
     float: left;
 }
 .contact-right{
     height: auto;
     float: right;
-    width: 50%;
+    width: 30%;
 }
 
 
@@ -220,21 +227,15 @@ h1{
     #logo{
         display: none;
     }
-    
-    
-    
-    
-    
-    
-    
-    
+        h1{
+            text-align: center;
+        }
         .left-box{
             width: 100%;
-            background: #999966;
+            
         }
         .right-box{
             width: 100%;
-            background: #c2c2a3;
         }
     
         .skill_box ul li img{
@@ -243,7 +244,7 @@ h1{
         }
         .skill_box ul{
             list-style-type: none;
-            text-align: center;
+            
         }
         .skill_box ul li{
             display: inline-block;
@@ -254,6 +255,9 @@ h1{
             size: 6;
         }
         iframe {
+            width: 100%;
+        }
+        .contact-left{
             width: 100%;
         }
         .contact-right{
