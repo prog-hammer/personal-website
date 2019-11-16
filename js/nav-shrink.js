@@ -17,20 +17,25 @@
           window.onscroll = function(){
     
               if (window.pageYOffset >600) {
-
-              nav_bar.style.background = "#d4d7de";
-              log.style.color="black";
+                
+              nav_bar.style.background = "#000000";
+              //nav_bar.style.background-image= linear-gradient(red, yellow);
+              //nav_bar.style.opacity = 0.7;
+              //log.style.color="black";
               top_button.style.display="block";
-              nav.classList.add("nav_animation");
+              //nav.classList.add("nav_animation");
+              
         }
       	else{
               nav_bar.style.background = "transparent";
-              log.style.color="white";
+              //log.style.color="white";
               top_button.style.display="none";
-              nav.classList.remove("nav_animation");
+              //nav.classList.remove("nav_animation");
         }
           }
+          
 //mobile menu
+/*
           $(document).ready(function(){
 
             $("#burger-nav").on("click", function(){
@@ -40,3 +45,4 @@
             });
         
         });
+        */

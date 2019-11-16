@@ -1,0 +1,147 @@
+#form-header{
+    text-align: center;
+    
+    font-family: Audiowide;
+}
+form input{
+    
+    width: 70%;
+    margin: 0;
+    border: 0;
+    border-bottom: 5px solid #0099ff;
+    margin: 2px;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+form textarea{
+    width: 70%;
+    border-bottom: 5px solid #0099ff;
+    margin: 2px;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input:focus{
+    outline: none;
+    border-bottom: 5px solid #968491;
+    padding-bottom: 8px;
+    transition: all ease 0.2s;
+}
+form textarea:focus{
+    outline: none;
+    border-bottom: 5px solid #968491;
+    padding-bottom: 8px;
+    transition: all ease 0.2s;
+}
+
+form:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+button{
+    border: 0;
+    background: #fff;
+    border-radius: 20px;
+    padding: 13px;
+    width: 150px;
+    box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
+    font-weight: bold;
+    font-family: ubuntu;
+    letter-spacing: 1px;
+    color: #999;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    border-bottom: 5px solid #0099ff;
+}
+#content{
+    text-align: left;
+    font-size: 25px;
+    padding: 5%
+
+}
+#contact_message{
+    border-style: solid;
+    border-width: 2px;
+    padding: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+.footer{
+	
+	
+	text-align: center;
+	height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    border-radius: 5px;
+}
+.footer ul li a img{
+	width: 30%;
+}
+.footer ul{
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.footer ul li{
+	
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: #b3e0ff;
+}
+#map{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#map-head{ 
+    text-align: left;
+    font-size: 20px;
+    margin-left: 5%;
+   }
+
+
+@media screen and (max-width: 480px){
+    
+    form input{
+        width:85%;
+    }
+    form textarea{
+        width:85%;
+    }
+
+    .footer{
+        text-align: unset;
+    }
+    .footer ul li a img{
+        width: 20px;
+    }
+    .footer ul li{
+        display: inline-block;
+        padding: 0%;
+        margin-top: 3px;
+    }
+
+    
+   }
