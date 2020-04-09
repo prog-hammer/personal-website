@@ -35,6 +35,7 @@
           }
           
 //mobile menu
+/*
           $(document).ready(function(){
 
             $("#burger-nav").on("click", function(){
@@ -44,3 +45,4 @@
             });
         
         });
+        */
